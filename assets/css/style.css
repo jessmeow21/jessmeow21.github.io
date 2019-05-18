@@ -1,0 +1,203 @@
+header { 
+   border-bottom: 1px solid #cccccc;
+    background-color: #ffffff;
+    
+    
+    color: white;
+    width: 100%;
+    margin: 0;
+    /* padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 28px;
+    margin-left: 30px;  */
+}
+
+.logo {
+    display: inline-block;
+    padding: 20px;
+    background-color: #4aaaa5;
+}
+
+.headercontainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+    
+
+}
+
+nav li {
+    float:left;
+    padding: 15px;
+}
+nav li a{
+    color:#000;
+    text-decoration: none;
+    border-right: 1px solid #b1afaf;
+    padding: 0px 5px;
+}
+h1 { 
+    color: white;
+    margin: 0;
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url("nice_snow.png");
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 180%;
+    color: #777777;
+    
+}
+
+
+
+/* FLOATS */
+#main-bio,
+#bio-image {
+    float: left;
+}
+
+#main-bio {
+    width: 100%;
+    border: 2px solid #dddddd;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+
+#bio-image {
+    margin-right: 20px;
+}
+
+
+
+footer {
+    clear: both;
+    background-color: #666666;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    border-top: 5px solid #4aaaa5;
+}
+
+/* Contact Page */
+* {
+    box-sizing: border-box;
+   
+}
+
+.contact {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #dddddd;
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 25px;
+    margin-bottom: 90px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid#ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit] :hover {
+    background-color: #3b8a86;
+}
+
+#message {
+    height: 150px;
+}
+
+/* Portfolio page */
+
+.boxes {
+   width: 850px;
+   overflow: hidden;
+   background: gray;
+   margin: 10px auto;
+   padding: 10px;
+}
+
+.boxes ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.boxes ul li{
+    list-style:none;
+    float: left;
+    width: 35%;
+    height: 200px;
+    background: white;
+    margin: 40px 30px 0px 0px;
+}
+
+.boxes ul li:hover{
+    opacity: 0.9;
+}
+
+.boxes ul li .title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+}
